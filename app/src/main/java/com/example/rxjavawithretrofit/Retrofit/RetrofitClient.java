@@ -6,7 +6,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
     private static Retrofit ourInstance;
-    private static  GsonConverterFactory;
 
     public static Retrofit getInstance() {
 
