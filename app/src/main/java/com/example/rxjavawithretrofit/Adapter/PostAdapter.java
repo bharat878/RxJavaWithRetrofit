@@ -37,7 +37,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
 
         holder.title.setText(String.valueOf(postList.get(position).userId));
         holder.subtitle.setText(String.valueOf(postList.get(position).title));
-        holder.content.setText(new StringBuilder(postList.get(position).title.substring(0,20))
+        holder.content.setText(new StringBuilder(postList.get(position).body.substring(0,20))
                 .append("....").toString());
 
     }
